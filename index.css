@@ -1,0 +1,41 @@
+.flag{
+    height:200px;
+    width:100%;
+    border-radius:10% 10% 0% 0%;
+  }
+  .card{  
+    width:80%;
+    border-radius:10%;
+    box-shadow: 1px 10px 36px 5px rgba(0,0,0,0.76);
+      -webkit-box-shadow: 1px 10px 36px 5px rgba(0,0,0,0.76);
+      -moz-box-shadow: 1px 10px 36px 5px rgba(0,0,0,0.76); 
+    height:100%;
+  }
+  .displayMode{
+      display: flex;
+      flex-direction: column;
+      margin:1rem;
+      text-wrap:wrap;  
+      align-items:center;
+  }
+  .displayMode1{
+    display: flex;
+    flex-direction: column; 
+  }
+  @media(min-width:350px){
+    .displayMode1{
+    display: flex;
+    flex-direction: row; 
+    }
+  }
+  .textArea{
+    padding:15px;
+  }
+  .textArea > h2{
+    font-size:100%;
+    
+  }
+  p{
+    font-size:100%; 
+    font-size:15px
+  }
